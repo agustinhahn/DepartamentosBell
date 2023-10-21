@@ -1,0 +1,235 @@
+h1 {
+    color: #909990;
+    font-family: sans-serif;
+    font-size: 120%;
+    letter-spacing: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid;
+    box-sizing: border-box;
+    display: center;
+    position: relative;
+    padding: 4px 15px;
+    background-color: rgb(126, 186, 166);
+}
+
+h2 {
+    color: black;
+    font-family: sans-serif;
+    font-size: 200%;
+    font-style: italic;
+    text-align: center;
+    text-orientation: initial;
+    margin-top: 0cm;
+}
+
+.mi-div {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: none;
+}
+
+.container.textos {
+    text-align: justify;
+    padding: 20px;
+}
+
+.iframe {
+    margin-left: 3rem;
+}
+
+.form-register {
+    padding: 30;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    font-family: sans-serif;
+    background-color: lightgrey;
+    border-radius: 4px;
+}
+
+.form-register .controls {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    background-color: none;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.form-register .bottons {
+    color: black;
+    margin-left: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.navbar-nav {
+    justify-items: right;
+    text-align: right;
+}
+
+.navbar {
+    background-color: none;
+    height: 80px;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(126, 186, 166);
+}
+
+.navbar .navbar-nav {
+    float: right;
+}
+
+.navbar .nav-link {
+    margin-right: 10px;
+}
+
+.navbar .navbar-toggler {
+    border-color: none;
+}
+
+#carouselExample {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    width: 90vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.carousel-inner .carousel-item img {
+    height: 80vh;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    .carousel-inner .carousel-item img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1020px) {
+    .carousel-inner .carousel-item img {
+        margin-top: 0;
+    }
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    min-height: 75vh;
+}
+
+.about-us-container .about-us-text-container {
+    width: 60%;
+}
+
+.about-us-container .about-us-img-container {
+    width: 40%;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pages .space {
+    margin: 15px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.main-container {
+    min-height: 75vh;
+}
+
+@media (max-width: 1300px) {
+    .about-us-container {
+        flex-direction: column;
+    }
+
+    .about-us-container .about-us-text-container {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .about-us-text-container {
+        font-size: 1.5rem;
+    }
+
+    .about-us-img-container img {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pages iframe {
+        margin-top: 50px;
+    }
+}
+
+footer {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 150%;
+    font-style: initial;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 10rem;
+    padding: 0%;
+}
+
+footer .fa-brands {
+    color: rgb(126, 186, 166);
+}
+
+/*# sourceMappingURL=estilos.css.map */

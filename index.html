@@ -6,103 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Departamentos Bell Alquiler Temporario" />
-    <meta name="keywords"
-        content="alquiler, alquileres, temporaryrent, departamentos, temporarios, airbnb, booking, hospedaje, buenos aires, hotel, vacaciones, turismo" />
-
+    <meta name="keywords" content="alquiler, alquileres, temporaryrent, departamentos, temporarios, airbnb, booking, hospedaje, buenos aires, hotel, vacaciones, turismo" />
     <title>Departamentos Bell Alquiler Temporario</title>
-
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <!--bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-
-    <!--css style-->
-    <link rel="stylesheet" href="./css/estilos.css" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--social media icon-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css style-->
+    <link rel="stylesheet" href="./css/estilos.css" />
 </head>
 
 <body>
-    <!--bootstrap navbar-->
-
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-light">
+    <div class="container-fluid">
+        <header class="row">
+            <nav class="navbar-expand-lg bg-light navbar fixed-top navbar-transparent">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Departamentos Bell</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="./pages/sobrenosotros.html">sobre
-                                nosotros</a>
-                            <a class="nav-link" href="./pages/ubicacion.html">ubicación</a>
-                            <a class="nav-link" href="./pages/servicios.html">servicios</a>
-                            <a class="nav-link" href="./pages/departamentos.html">departamentos</a>
-                            <a class="nav-link" href="./pages/turismo.html">turismo</a>
-                            <a class="nav-link" href="./pages/contacto.html">contacto</a>
+                    <div class="collapse navbar-collapse navbar-nav" id="navbarNavAltMarkup">
+                        <div class="navLinks">
+                            <a class="navbar-brand" href="#">Departamentos Bell</a>
+                        </div>
+                        <div class="navLinks">
+                            <a class="nav-link" href="./pages/ubicacion.html">UBICACION</a>
+                            <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
+                            <a class="nav-link" href="./pages/departamentos.html">DEPARTAMENTOS</a>
+                            <a class="nav-link" href="./pages/turismo.html">TURISMO</a>
+                        </div>
+                        <div>
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
                         </div>
                     </div>
                 </div>
             </nav>
-        </div>
-    </header>
-
-    <h1>Departamentos Bell - Alquiler Temporario</h1>
-
-    <div class="container-fluid">
-        <!--carrousel bootstrap-->
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/bell5 pano recor.jpg" class="d-block w-100" alt="..." />
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/bell5panorecor2.jpg" class="d-block w-100 imgInsert" alt="..." />
+                    </div>
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/bell3living.jpg" class="d-block w-100 imgInsert" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/sheets.jpg" class="d-block w-100 imgInsert" alt="..." />
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./img/bell5_patio.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/bell5 welcome.jpg" class="d-block w-100" alt="..." />
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <!--cierre carrousel-->
+        </header>
+        <main>
+            <div class="contenedorMain">
+                <h1 class="tituloPrincipal fade-in-top">DEPARTAMENTOS BELL - ALQUILER TEMPORARIO</h1>
+                <span class="textoMain">
+                    Departamentos Bell ofrece unidades totalmente equipadas en el cálido barrio de Villa del Parque.
+                </span>
+                <span class="textoMain">
+                    Todas nuestras unidades cuentan con equipamiento completo para que nuestros huéspedes se sientan como en casa.
+                </span>
+                <span class="textoMain">
+                    Nuestro servicio incluye ropa blanca y servicio de limpieza semanal para estadías mayores a una semana.
+                </span>
+            </div>
+        </main>
+
+    
+        <footer>
+            <div class="footer_socials">
+                <a href="https://instagram.com/departamentos_bell?utm_medium=copy_link" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/departamentosBell/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+                    target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/+5491158726696" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+    
+            <div class="footer_bar"></div>
+    
+            <div class="footer_text">
+                <p>Phone: +54 9 11 5872 6696</p>
+                <p>Email: info@departamentosbell.com.ar</p>
+            </div>
+        </footer>
+    
     </div>
-    <!--cierre container-->
 
-    <footer>
-        <div class="footer_socials">
-            <a href="https://instagram.com/departamentos_bell?utm_medium=copy_link" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.facebook.com/departamentosBell/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
-                target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://wa.me/+5491158726696" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-
-        <div class="footer_bar"></div>
-
-        <div class="footer_text">
-            <p>Phone: +54 9 11 5872 6696</p>
-            <p>Email: info@departamentosbell.com.ar</p>
-        </div>
-    </footer>
-
-    <!--bootstrap java-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+    <!--bootstrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
-
 </html>

@@ -33,15 +33,10 @@ body {
 }
 
 .subTituloMain{
+    color: rgb(97, 97, 97);
+    text-align: center;
+    margin: 20px;
     font-size: 20px;
-    margin-top: 20px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
-
-.info{
-    display: flex;
-    flex-direction: row;
 }
 
 .infotexto{
@@ -262,10 +257,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.space {
-    margin: 15px;
 }
 
 .contact-container {
